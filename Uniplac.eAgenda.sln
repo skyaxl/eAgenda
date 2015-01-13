@@ -1,0 +1,202 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Arquitetura do Sistema", "1. Arquitetura do Sistema", "{6B3870C8-5F60-4C13-97A6-1D05540E2237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Unidades da Disciplina", "2. Unidades da Disciplina", "{B475D69C-36CF-4CA2-B478-25353C14DCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2.TarefasApp", "TarefasApp\Exemplo2.TarefasApp.csproj", "{793E22CB-B748-46A4-ADF2-CE5D277443AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tarefas App Com Interação Usuário", "Tarefas App Com Interação Usuário", "{0A7D9282-B06F-40C4-A353-174DEE5E88E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tarefas App Sem Interação Usuário", "Tarefas App Sem Interação Usuário", "{65041C36-307A-49F5-A1C2-7BB44FA47A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1.TarefasApp", "Exemplo1.TarefasApp\Exemplo1.TarefasApp.csproj", "{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Unidade 1", "2.1 Unidade 1", "{0F34DAE3-A382-4D3D-BA7C-E4C63890B60A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{313CA49B-E07D-413B-B440-1709F6CD939C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationGenerics", "ConsoleApplicationGenerics\ConsoleApplicationGenerics.csproj", "{B34A8A26-E234-49A0-A623-600F384740E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates Com Generics", "Delegates Com Generics", "{FABC09B3-9A57-48BF-AC6E-18F66CDEDF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationDelegateGenerics", "ConsoleApplicationDelegateGenerics\ConsoleApplicationDelegateGenerics.csproj", "{45935004-6E9D-4B2C-B3A5-23F5739B7231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Unidade 2", "2.2 Unidade 2", "{3379A129-7CF2-40C2-ACBB-AE83A99825CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1.2 Exemplos", "2.1.2 Exemplos", "{973CE862-978A-4384-AAB0-6F5B75E13552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1.1 Material", "2.1.1 Material", "{D1C9B77D-80B6-43CF-95C7-C256DEDE5014}"
+	ProjectSection(SolutionItems) = preProject
+		Exercicio Unidade 1 - v1.txt = Exercicio Unidade 1 - v1.txt
+		Material\Unidade 1 - Collections.pdf = Material\Unidade 1 - Collections.pdf
+		Material\Unidade 1 - Delegates.pdf = Material\Unidade 1 - Delegates.pdf
+		Material\Unidade 1 - Generics1.pdf = Material\Unidade 1 - Generics1.pdf
+		Material\Unidade 1 - Generics2.pdf = Material\Unidade 1 - Generics2.pdf
+		Material\Unidade 1 - Resumido - Collections.pdf = Material\Unidade 1 - Resumido - Collections.pdf
+		Material\Unidade 1 - Resumido - Delegates com Generics.pptx = Material\Unidade 1 - Resumido - Delegates com Generics.pptx
+		Material\Unidade 1 - Resumido - Delegates.pptx = Material\Unidade 1 - Resumido - Delegates.pptx
+		Material\Unidade 1 - Resumido - Generics.pptx = Material\Unidade 1 - Resumido - Generics.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1.3 Exercicios", "2.1.3 Exercicios", "{6C7E0F60-D4D7-4399-8D5F-89C958B4C9B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2.1 Material", "2.2.1 Material", "{B8FD0373-96E2-42F6-B926-C6B70D83A386}"
+	ProjectSection(SolutionItems) = preProject
+		Exercicio Unidade 2 - v2.txt = Exercicio Unidade 2 - v2.txt
+		Material\Unidade 2 - Camadas.pdf = Material\Unidade 2 - Camadas.pdf
+		Material\Unidade 2 - Resumido - Camadas.pptx = Material\Unidade 2 - Resumido - Camadas.pptx
+		Material\Unidade 2 Arquitetura Final.pptx = Material\Unidade 2 Arquitetura Final.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2.2 Exemplos", "2.2.2 Exemplos", "{E6B30A3D-D953-4AC7-9A64-92A1719852A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Apresentação", "1.1 Apresentação", "{DC880894-E849-413E-B447-D7605E45BB69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Domínio", "1.2 Domínio", "{788A89B6-6902-457D-908B-6BB6F514C1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.ConsoleApp", "Uniplac.eAgenda.ConsoleApp\Uniplac.eAgenda.ConsoleApp.csproj", "{A44490D6-6A49-4844-A99E-EBA333B927AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.Dominio", "Uniplac.eAgenda.Dominio\Uniplac.eAgenda.Dominio.csproj", "{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 Unidade 3", "2.3 Unidade 3", "{098E8949-0773-4819-8C50-F647A6B259A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Infraestrutura", "1.3 Infraestrutura", "{E15641D6-61D4-4B9F-8BB8-9D24A48BA6A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3.1 Acesso a Dados", "1.3.1 Acesso a Dados", "{528F1664-2278-428B-9783-B896D525636B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.Infraestrutura.Memoria", "Uniplac.eAgenda.Infraestrutura.Memoria\Uniplac.eAgenda.Infraestrutura.Memoria.csproj", "{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.Infraestrutura.Dao", "Uniplac.eAgenda.Infraestrutura.Dao\Uniplac.eAgenda.Infraestrutura.Dao.csproj", "{1F0C96CE-FB10-457A-8AEF-25A62099F954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3.1 Material", "2.3.1 Material", "{0E27CB1C-D467-423E-B2DF-3162B6CA2420}"
+	ProjectSection(SolutionItems) = preProject
+		Exercício Unidade 3 - v3.txt = Exercício Unidade 3 - v3.txt
+		Material\Unidade 3 Camada de  Infraestrutura - Resumido.pptx = Material\Unidade 3 Camada de  Infraestrutura - Resumido.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Explicação TarefaDao", "Explicação TarefaDao", "{C5A90E7F-51CC-4F80-83D6-BFFE7BD77F14}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 3 - Explicação da Atualização da Tarefa.pptx = Material\Unidade 3 - Explicação da Atualização da Tarefa.pptx
+		Material\Unidade 3 - Explicação da Exclusão da Tarefa.pptx = Material\Unidade 3 - Explicação da Exclusão da Tarefa.pptx
+		Material\Unidade 3 - Explicação de Inserção de uma Tarefa.pptx = Material\Unidade 3 - Explicação de Inserção de uma Tarefa.pptx
+		Material\Unidade 3 - Explicação de Seleção de todas as Tarefas.pptx = Material\Unidade 3 - Explicação de Seleção de todas as Tarefas.pptx
+		Material\Unidade 3 - Explicação de Seleção de uma única Tarefa.pptx = Material\Unidade 3 - Explicação de Seleção de uma única Tarefa.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Explicação TarefaDao - Refatorado", "Explicação TarefaDao - Refatorado", "{8F6DCFD8-B2E2-4B19-B234-B979FA85241E}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 3 - Explicação da Atualização da Tarefa - Refatorado.pptx = Material\Unidade 3 - Explicação da Atualização da Tarefa - Refatorado.pptx
+		Material\Unidade 3 - Explicação da Exclusão da Tarefa - Refatorado.pptx = Material\Unidade 3 - Explicação da Exclusão da Tarefa - Refatorado.pptx
+		Material\Unidade 3 - Explicação de Inserção de uma Tarefa - Refatorado.pptx = Material\Unidade 3 - Explicação de Inserção de uma Tarefa - Refatorado.pptx
+		Material\Unidade 3 - Explicação de Seleção de todas as Tarefas - Refatorado.pptx = Material\Unidade 3 - Explicação de Seleção de todas as Tarefas - Refatorado.pptx
+		Material\Unidade 3 - Explicação de Seleção de uma única Tarefa - Refatorado.pptx = Material\Unidade 3 - Explicação de Seleção de uma única Tarefa - Refatorado.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4 Unidade 4", "2.4 Unidade 4", "{48A11F24-2819-4E27-881C-B2A8538D8E94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4.1 Material", "2.4.1 Material", "{1E644662-77D3-4A5F-9C1A-D43AE8D8E105}"
+	ProjectSection(SolutionItems) = preProject
+		Material\Unidade 4 Camada de Apresentação - WinForms - Componentes.pdf = Material\Unidade 4 Camada de Apresentação - WinForms - Componentes.pdf
+		Material\Unidade 4 Camada de Apresentação - WinForms - Intro.pdf = Material\Unidade 4 Camada de Apresentação - WinForms - Intro.pdf
+		Material\Unidade 4 Camada de Apresentação - WinForms - Intro.ppt = Material\Unidade 4 Camada de Apresentação - WinForms - Intro.ppt
+		Material\Unidade 4 Camada de Apresentação - WinForms.pdf = Material\Unidade 4 Camada de Apresentação - WinForms.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4.2 Exemplos", "2.4.2 Exemplos", "{7E359A7E-D031-459A-8B75-6D6368F70EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4.3 Exercicios", "2.4.3 Exercicios", "{25E911C1-2B47-4AD0-80CE-7414644EB75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.WindowsApp", "Uniplac.eAgenda.WindowsApp\Uniplac.eAgenda.WindowsApp.csproj", "{301F975D-1E54-4A5F-9E40-E3930C51FE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.eAgenda.WebApp", "Uniplac.eAgenda.WebApp\Uniplac.eAgenda.WebApp.csproj", "{E57CA0E5-319D-4881-8B34-7513F96388B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793E22CB-B748-46A4-ADF2-CE5D277443AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793E22CB-B748-46A4-ADF2-CE5D277443AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793E22CB-B748-46A4-ADF2-CE5D277443AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793E22CB-B748-46A4-ADF2-CE5D277443AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34A8A26-E234-49A0-A623-600F384740E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34A8A26-E234-49A0-A623-600F384740E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34A8A26-E234-49A0-A623-600F384740E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34A8A26-E234-49A0-A623-600F384740E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45935004-6E9D-4B2C-B3A5-23F5739B7231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45935004-6E9D-4B2C-B3A5-23F5739B7231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45935004-6E9D-4B2C-B3A5-23F5739B7231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45935004-6E9D-4B2C-B3A5-23F5739B7231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44490D6-6A49-4844-A99E-EBA333B927AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44490D6-6A49-4844-A99E-EBA333B927AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44490D6-6A49-4844-A99E-EBA333B927AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44490D6-6A49-4844-A99E-EBA333B927AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0C96CE-FB10-457A-8AEF-25A62099F954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0C96CE-FB10-457A-8AEF-25A62099F954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0C96CE-FB10-457A-8AEF-25A62099F954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0C96CE-FB10-457A-8AEF-25A62099F954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301F975D-1E54-4A5F-9E40-E3930C51FE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301F975D-1E54-4A5F-9E40-E3930C51FE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301F975D-1E54-4A5F-9E40-E3930C51FE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301F975D-1E54-4A5F-9E40-E3930C51FE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CA0E5-319D-4881-8B34-7513F96388B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CA0E5-319D-4881-8B34-7513F96388B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CA0E5-319D-4881-8B34-7513F96388B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CA0E5-319D-4881-8B34-7513F96388B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{793E22CB-B748-46A4-ADF2-CE5D277443AC} = {0A7D9282-B06F-40C4-A353-174DEE5E88E1}
+		{0A7D9282-B06F-40C4-A353-174DEE5E88E1} = {6C7E0F60-D4D7-4399-8D5F-89C958B4C9B0}
+		{65041C36-307A-49F5-A1C2-7BB44FA47A17} = {6C7E0F60-D4D7-4399-8D5F-89C958B4C9B0}
+		{7ACA13F5-FE7E-4430-ABF9-8D310C18CCE6} = {65041C36-307A-49F5-A1C2-7BB44FA47A17}
+		{0F34DAE3-A382-4D3D-BA7C-E4C63890B60A} = {B475D69C-36CF-4CA2-B478-25353C14DCF6}
+		{313CA49B-E07D-413B-B440-1709F6CD939C} = {973CE862-978A-4384-AAB0-6F5B75E13552}
+		{B34A8A26-E234-49A0-A623-600F384740E6} = {313CA49B-E07D-413B-B440-1709F6CD939C}
+		{FABC09B3-9A57-48BF-AC6E-18F66CDEDF49} = {973CE862-978A-4384-AAB0-6F5B75E13552}
+		{45935004-6E9D-4B2C-B3A5-23F5739B7231} = {FABC09B3-9A57-48BF-AC6E-18F66CDEDF49}
+		{3379A129-7CF2-40C2-ACBB-AE83A99825CD} = {B475D69C-36CF-4CA2-B478-25353C14DCF6}
+		{973CE862-978A-4384-AAB0-6F5B75E13552} = {0F34DAE3-A382-4D3D-BA7C-E4C63890B60A}
+		{D1C9B77D-80B6-43CF-95C7-C256DEDE5014} = {0F34DAE3-A382-4D3D-BA7C-E4C63890B60A}
+		{6C7E0F60-D4D7-4399-8D5F-89C958B4C9B0} = {0F34DAE3-A382-4D3D-BA7C-E4C63890B60A}
+		{B8FD0373-96E2-42F6-B926-C6B70D83A386} = {3379A129-7CF2-40C2-ACBB-AE83A99825CD}
+		{E6B30A3D-D953-4AC7-9A64-92A1719852A0} = {3379A129-7CF2-40C2-ACBB-AE83A99825CD}
+		{DC880894-E849-413E-B447-D7605E45BB69} = {6B3870C8-5F60-4C13-97A6-1D05540E2237}
+		{788A89B6-6902-457D-908B-6BB6F514C1B5} = {6B3870C8-5F60-4C13-97A6-1D05540E2237}
+		{A44490D6-6A49-4844-A99E-EBA333B927AC} = {DC880894-E849-413E-B447-D7605E45BB69}
+		{A4B09FF5-F6F7-4132-A9EC-64C0B807ADC0} = {788A89B6-6902-457D-908B-6BB6F514C1B5}
+		{098E8949-0773-4819-8C50-F647A6B259A0} = {B475D69C-36CF-4CA2-B478-25353C14DCF6}
+		{E15641D6-61D4-4B9F-8BB8-9D24A48BA6A0} = {6B3870C8-5F60-4C13-97A6-1D05540E2237}
+		{528F1664-2278-428B-9783-B896D525636B} = {E15641D6-61D4-4B9F-8BB8-9D24A48BA6A0}
+		{1AF9780E-872C-4C6D-9EE9-4D74B9D77DB2} = {528F1664-2278-428B-9783-B896D525636B}
+		{1F0C96CE-FB10-457A-8AEF-25A62099F954} = {528F1664-2278-428B-9783-B896D525636B}
+		{0E27CB1C-D467-423E-B2DF-3162B6CA2420} = {098E8949-0773-4819-8C50-F647A6B259A0}
+		{C5A90E7F-51CC-4F80-83D6-BFFE7BD77F14} = {0E27CB1C-D467-423E-B2DF-3162B6CA2420}
+		{8F6DCFD8-B2E2-4B19-B234-B979FA85241E} = {0E27CB1C-D467-423E-B2DF-3162B6CA2420}
+		{48A11F24-2819-4E27-881C-B2A8538D8E94} = {B475D69C-36CF-4CA2-B478-25353C14DCF6}
+		{1E644662-77D3-4A5F-9C1A-D43AE8D8E105} = {48A11F24-2819-4E27-881C-B2A8538D8E94}
+		{7E359A7E-D031-459A-8B75-6D6368F70EB6} = {48A11F24-2819-4E27-881C-B2A8538D8E94}
+		{25E911C1-2B47-4AD0-80CE-7414644EB75C} = {48A11F24-2819-4E27-881C-B2A8538D8E94}
+		{301F975D-1E54-4A5F-9E40-E3930C51FE26} = {DC880894-E849-413E-B447-D7605E45BB69}
+		{E57CA0E5-319D-4881-8B34-7513F96388B3} = {DC880894-E849-413E-B447-D7605E45BB69}
+	EndGlobalSection
+EndGlobal

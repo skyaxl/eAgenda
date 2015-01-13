@@ -1,0 +1,10 @@
+﻿<header class="child-screen-header">
+    <h1><i class="glyphicon glyphicon-usd"></i>Despesas</h1>
+    <menu class="datatoolbar">
+        <button class="btn btn-success" title="Adicionar Despesa" ng-click="AddDespesa()"><i class="glyphicon glyphicon-plus-sign"></i></button>
+        <button class="btn btn-warning" title="Editar Despesa" ng-click="EditarDespesa()"><i class="glyphicon glyphicon-edit"></i></button>
+        <button class="btn btn-danger" title="Remover Despesa" ng-click="RemoverDespesa()"><i class="glyphicon glyphicon-remove-sign"></i></button>
+        <button class="btn btn-info right" title="Atualizar Despesas" ng-click="refresh()"><i class="glyphicon glyphicon-refresh"></i></button>
+    </menu>
+</header>
+<ndd-grid datasource="expenses" options="options" ></ndd-grid>

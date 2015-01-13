@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A44490D6-6A49-4844-A99E-EBA333B927AC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Uniplac.eAgenda.ConsoleApp</RootNamespace>
+    <AssemblyName>Uniplac.eAgenda.ConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telas\CadastroConsole.cs" />
+    <Compile Include="Telas\CadastroEnum.cs" />
+    <Compile Include="Telas\CompromissoConsole.cs" />
+    <Compile Include="Telas\DespesaConsole.cs" />
+    <Compile Include="Telas\TarefaConsole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Uniplac.eAgenda.Dominio\Uniplac.eAgenda.Dominio.csproj">
+      <Project>{a4b09ff5-f6f7-4132-a9ec-64c0b807adc0}</Project>
+      <Name>Uniplac.eAgenda.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Uniplac.eAgenda.Infraestrutura.Dao\Uniplac.eAgenda.Infraestrutura.Dao.csproj">
+      <Project>{1f0c96ce-fb10-457a-8aef-25a62099f954}</Project>
+      <Name>Uniplac.eAgenda.Infraestrutura.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Uniplac.eAgenda.Infraestrutura.Memoria\Uniplac.eAgenda.Infraestrutura.Memoria.csproj">
+      <Project>{1af9780e-872c-4c6d-9ee9-4d74b9d77db2}</Project>
+      <Name>Uniplac.eAgenda.Infraestrutura.Memoria</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

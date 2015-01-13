@@ -1,0 +1,27 @@
+
+Contexto - Controle de Tarefas
+
+Arnaldo deseja escrever uma aplicação de controle de tarefas para colocar em seu Smartphone.
+
+Requisito 1: (implementado)
+
+As especificações da aplicação são as seguintes: 
+cada tarefa contém o número da prioridade, representado por um valor real. 
+Isso permite entrar com intervalos intermediários. 
+Além da prioridade, a tarefa deve conter: o nome, a data de execução (se houver), 
+o percentual concluído e o detalhamento da tarefa. 
+Para cada tarefa há uma lista de itens que descrevem sua execução.
+
+Requisito 2: (implementado)
+
+Para cada item de execução, deve-se informar: o percentual correspondente, 
+a descrição da execução e a data da conclusão (quando houver).
+O percentual de cada tarefa é calculado nos percentuais dos itens de execução.
+
+Requisito 3: (implementar)
+
+Quando uma tarefa receber 100% de execução, esta deve ser movida automaticamente 
+para a lista de tarefas concluídas, podendo ser apagada, se for o caso.
+O Arnaldo gostaria também de visualizar as tarefas pendentes separadas das tarefas concluídas.
+
+

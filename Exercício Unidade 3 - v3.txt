@@ -1,0 +1,15 @@
+Arnaldo quer fazer o cadastro de diversas informações dos seus contatos, 
+desta forma quando ele precisar conversar com alguém ele terá todas as informações que necessita.
+
+Isso mostra que o Arnaldo quer fazer parte do grupo das pessoas conecatadas e organizadas.
+
+Atualmente o aplicativo eAgenda 2.0 tem os recursos de controlar Tarefas e Compromissos. 
+Porém, Arnaldo solicitou a possiblidade de gerenciar os seus contatos também.
+
+Requisito 5: 
+
+Especificação dos requisitos:
+•	Um contato deverá ter: Número, Nome, Endereço, Telefone e E-mail e Gênero Sexual.
+•	O usuário terá a possibilidade de registrar novos contatos, visualizar, editar e excluir os já existentes;
+•	O usuário gostaria de pesquisar os contatos pelo nome.
+•	Arnaldo gostaria também de visualizar os contatos masculinos separados das contatos femininos

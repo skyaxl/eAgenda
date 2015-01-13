@@ -1,0 +1,15 @@
+﻿    <li ui-sref-active="active" ui-has-sref="active">
+        <a ui-sref="home"><i class="glyphicon glyphicon-home left"></i> Home</a>
+    </li>
+    <li ng-class="{active: state.$current.name.indexOf('tasks') != -1}">
+
+        <a ui-sref="tasks.main"><i class="glyphicon glyphicon-tasks left"></i> Tarefas</a>
+    </li>
+    <li ng-class="{active: state.$current.name.indexOf('commitment') != -1}">
+
+        <a ui-sref="commitments.main"><i class="glyphicon glyphicon-calendar left"></i> Comprimissos</a>
+    </li>
+    <li ng-class="{active: state.$current.name.indexOf('expenses') != -1}">
+
+        <a ui-sref="expenses.main"><i class="glyphicon glyphicon-usd left"></i> Despesas</a>
+    </li>

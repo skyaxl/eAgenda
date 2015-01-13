@@ -1,0 +1,73 @@
+﻿.child-screen-header
+{
+    border-bottom: 2px black dashed
+}
+
+.datatoolbar
+{
+    margin: 20px 0 20px -50px;
+    width: 100%;
+}
+
+h1 i
+{
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+.datatoolbar button
+{
+    min-height:50px;
+    -moz-min-width: 50px;
+    -ms-min-width: 50px;
+    -o-min-width: 50px;
+    -webkit-min-width: 50px;
+    min-width: 50px;
+    -ms-border-radius: 50% 50% !important;
+    border-radius: 50% 50% !important; 
+}
+
+.btn-circular
+{
+    -ms-border-radius: 50% 50% !important;
+    border-radius: 50% 50% !important;  
+     min-height:50px;
+    -moz-min-width: 50px;
+    -ms-min-width: 50px;
+    -o-min-width: 50px;
+    -webkit-min-width: 50px;
+    min-width: 50px;  
+}
+
+h1 button.btn-circular
+{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+
+.datatoolbar button.right
+{
+    float: right;
+    margin-right: -50px;
+}
+
+button i
+{
+   font-size: 30px 
+}
+
+button i[class *= "sign"]
+{
+    margin-top: 10%
+}
+
+ td .progress-bar
+{
+   height: 20px;
+ 
+}
+ button.submit i
+ {
+     font-size: 15px;
+ }

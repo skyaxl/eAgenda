@@ -1,0 +1,10 @@
+﻿<header class="child-screen-header">
+    <h1><i class="glyphicon glyphicon-tasks"></i>Tarefas</h1>
+    <menu class="datatoolbar">
+        <button class="btn btn-success" title="Adicionar Tarefa" ng-click="AddTarefa()"><i class="glyphicon glyphicon-plus-sign"></i></button>
+        <button class="btn btn-warning" title="Editar Tarefa" ng-click="EditarTarefa()"><i class="glyphicon glyphicon-edit"></i></button>
+        <button class="btn btn-danger" title="Remover Tarefa" ng-click="RemoverTarefa()"><i class="glyphicon glyphicon-remove-sign"></i></button>
+        <button class="btn btn-info right" title="Atualizar Tarefas" ng-click="refresh()"><i class="glyphicon glyphicon-refresh"></i></button>
+    </menu>
+</header>
+<ndd-grid datasource="tasks" options="options" ongridload="RecauculaPorcentagem" beforecollapse="beforecollapse"></ndd-grid>

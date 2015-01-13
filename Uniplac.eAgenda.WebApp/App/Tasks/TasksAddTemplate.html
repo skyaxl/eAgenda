@@ -1,0 +1,67 @@
+﻿<header class="child-screen-header" ng-init="!TarefaAtual? state.back() : (TarefaAtual = TarefaAtual)">
+    <h1 class="media">
+        <button ng-click="state.back()" title="Cancelar e voltar" class="btn btn-danger btn-circular"><i class="glyphicon glyphicon-arrow-left"></i> Cancelar</button>
+        Nova Tarefa
+    </h1>
+</header>
+<form role="form" ng-submit="saveTask()">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="numero">Numero</label>
+            <input type="text" class="form-control" id="numero" readonly="" ng-model="TarefaAtual.numero">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-8">
+            <label for="titulo">Titulo</label>
+            <input type="text" class="form-control" id="titulo" ng-model="TarefaAtual.titulo" required="">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="prioridade">Prioridade </label>
+            <input type="number" class="form-control" id="prioridade" ng-model="TarefaAtual.prioridade" required="" min="1">
+        </div>
+    </div>
+
+    <button type="submit" id="submitTarefa" class="hidden"><i class="glyphicon glyphicon-save"></i> Salvar</button>
+</form>
+<header class="child-screen-header">
+    <h3>Itens de Execução</h3>
+    <menu class="datatoolbar">
+        <button class="btn btn-success" type="button" title="Adicionar Item" ng-click="NovoItem()"><i class="glyphicon glyphicon-plus-sign"></i></button>
+        <button class="btn btn-warning" type="button" title="Editar Item"><i class="glyphicon glyphicon-edit"></i></button>
+        <button class="btn btn-danger" type="button" title="Remover Item" ng-click="RemoverItem()"><i class="glyphicon glyphicon-remove-sign"></i></button>
+    </menu>
+</header>
+<form ng-submit="TarefaAtual.adicionarItemExecucao(ItemExecucaoAtual);NovoItem();">
+    <div class="row">
+        <div class="col-md-6">
+            <ndd-grid datasource="TarefaAtual.itensExecucacao" options="optionsItemsTasks" onselect="onSelectItem"></ndd-grid>
+        </div>
+
+        <div class="col-md-6">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="numero">Numero</label>
+                    <input type="text" class="form-control" id="numero" readonly="" ng-model="ItemExecucaoAtual.numero">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label for="titulo">Titulo</label>
+                    <input type="text" class="form-control" id="tituloItem" ng-model="ItemExecucaoAtual.titulo" required="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label for="prioridade">Percentual </label>
+                    <input type="number" class="form-control" id="prioridade" ng-model="ItemExecucaoAtual.percentual" required="" min="0" max="100">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info submit" ng-disabled="TarefaAtual.itensExecucacao.indexOf(ItemExecucaoAtual) != -1"><i class="glyphicon glyphicon-plus"></i> Adicionar</button>
+        </div>
+    </div>
+</form>
+<footer class="row panel-footer">
+    <a ui-sref="tasks.main" class="btn btn-danger"><i class="glyphicon glyphicon-arrow-left"></i> Cancelar</a>
+    <button type="button" onclick="document.getElementById('submitTarefa').click()" class="btn btn-info submit"><i class="glyphicon glyphicon-save"></i> Salvar</button>
+</footer>

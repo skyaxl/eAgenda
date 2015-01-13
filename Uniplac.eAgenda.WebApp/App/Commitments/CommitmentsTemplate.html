@@ -1,0 +1,10 @@
+﻿<header class="child-screen-header">
+    <h1><i class="glyphicon glyphicon-calendar"></i>Compromissos</h1>
+    <menu class="datatoolbar">
+        <button class="btn btn-success" title="Adicionar Tarefa" ng-click="AddCompromisso()"><i class="glyphicon glyphicon-plus-sign"></i></button>
+        <button class="btn btn-warning" title="Editar Tarefa" ng-click="EditaCompromisso()"><i class="glyphicon glyphicon-edit"></i></button>
+        <button class="btn btn-danger" title="Remover Tarefa" ng-click="RemoverCompromisso()"><i class="glyphicon glyphicon-remove-sign"></i></button>
+        <button class="btn btn-info right" title="Atualizar Tarefas" ng-click="refresh()"><i class="glyphicon glyphicon-refresh"></i></button>
+    </menu>
+</header>
+<div ui-calendar="config.calendar" class="content" ng-model="eventSources"></div>

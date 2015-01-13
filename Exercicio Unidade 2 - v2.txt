@@ -1,0 +1,11 @@
+Arnaldo quer saber com precisão quais seus compromissos agendados, e marcá-los sempre para horários em que será possível cumpri-los pontualmente, 
+isso mostra que ele quer fazer parte do grupo das pessoas produtivas e organizadas, e é também objeto de muitos métodos, técnicas e ferramentas.
+
+Atualmente o aplicativo eAgenda 1.0 tem os recursos de controlar Tarefas. 
+Porém, Arnaldo solicitou a possiblidade de gerenciar compromissos também.
+
+Requisito 4: 
+
+Especificação dos requisitos:
+•	Um compromisso deverá ter: Número, Assunto, Local, Data de início e término, Hora de início e término ou se compromisso será o dia inteiro.
+•	O usuário terá a possibilidade de registrar novos compromissos, visualizar, editar e excluir os já existentes;

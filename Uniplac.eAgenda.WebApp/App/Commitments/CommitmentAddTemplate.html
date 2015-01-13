@@ -1,0 +1,48 @@
+﻿<header class="child-screen-header" ng-init="VerifyModel()">
+    <h1 class="media">
+        <button ng-click="cancelEditOrUpdate()" title="Cancelar e voltar" class="btn btn-danger btn-circular"><i class="glyphicon glyphicon-arrow-left"></i> Cancelar</button>
+        Novo Compromisso
+    </h1>
+</header>
+
+<form role="form" ng-submit="saveCommitment()">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="id">Numero</label>
+            <input type="text" class="form-control" id="id" readonly="" ng-model="compromissoAtual.id">
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group col-md-7">
+            <label for="assunto">Assunto</label>
+            <input type="text" class="form-control" id="assunto" ng-model="compromissoAtual.title" required="">
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group col-md-7">
+            <label for="place">Local</label>
+            <input type="text" class="form-control" id="place" ng-model="compromissoAtual.place" required="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="start">Data de Inicio: </label>
+            <input type="datetime-local" class="form-control" name="start" value="{{todayMinFormat()}}" ng-model="compromissoAtual.start" required="">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="end">Data de Termino: </label>
+            <input type="datetime-local" class="form-control" name=" end" ng-model="compromissoAtual.end" ng-required="!compromissoAtual.allDay">
+        </div>
+        <div class="form-group col-md-1 btn-group" data-toggle="buttons">
+            <label>Dia Inteiro:</label>
+            <label ng-class="{'btn-success' : compromissoAtual.allDay, 'btn-primary' : !compromissoAtual.allDay}" class="btn " ng-click="compromissoAtual.allDay = !compromissoAtual.allDay">
+                {{compromissoAtual.allDay ? 'Sim' : 'Não'}}
+            </label>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-save"></i> Salvar</button>
+</form>
